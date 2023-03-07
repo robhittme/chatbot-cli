@@ -1,5 +1,6 @@
 # Chatbot using OpenAI API
 This is a simple chatbot application that uses the OpenAI API to generate responses based on user input. The bot generates text by calling the OpenAI Completion API, using a pre-trained language model.
+~~IMPORTANT~~: this does not persist conversations. This is purely for quick questions.
 
 ## Installation
 To run this application, you will need to install the following dependencies:

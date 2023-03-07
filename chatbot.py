@@ -3,9 +3,13 @@ import questionary
 import openai
 from dotenv import load_dotenv
 
+load_dotenv()
+
+openai.api_key = os.environ["OPENAI_API_KEY"]
+
 def chat(p):
     prompt = p 
-    model = os.getenv(MODEL) 
+    model = os.getenv("MODEL") 
     temperature = 0.5
     max_tokens = 4007
 
